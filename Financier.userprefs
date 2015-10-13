@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/src/libs/renderer/FieldRenderer.cs">
+    <Files>
+      <File FileName="Assets/src/models/field/Panel.cs" Line="25" Column="3" />
+      <File FileName="Assets/src/models/field/Obstacle.cs" Line="20" Column="1" />
+      <File FileName="Assets/src/models/Life.cs" Line="3" Column="1" />
+      <File FileName="Assets/src/scenes/SceneController.cs" Line="45" Column="4" />
+      <File FileName="Assets/src/libs/renderer/FieldRenderer.cs" Line="29" Column="62" />
+      <File FileName="Assets/src/models/field/Field.cs" Line="28" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

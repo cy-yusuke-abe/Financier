@@ -14,33 +14,27 @@ namespace Controllers {
 		void Start () {
 
 			var panels = new List<Panel>();
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GLASS, Panel.Attribute.IMMORTAL, false));
 
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GLASS, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GLASS, Panel.Attribute.IMMORTAL, false));
 
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GRABEL, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GLASS, Panel.Attribute.IMMORTAL, false));
+			panels.Add(new Panel(Panel.Type.GLASS, Panel.Attribute.IMMORTAL, false));
 
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
-			panels.Add(new Panel(Panel.Type.NORMAL, false));
 
 			var field = new Field(new Point2D(6, 3), panels);
 

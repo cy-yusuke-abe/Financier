@@ -7,26 +7,34 @@ namespace Models.Field {
 	 * */
 	public class Panel {
 		public enum Type {
-			NORMAL,
-			BREAKABLE,
-			PIT,
-			IMMUTABLE_PIT,
-			FIRE_PANEL,
-			ICE_PANEL,
-			GLASS_PANEL,
-			POISON_PANEL,
-			HOLY_PANEL
+			GRABEL = 0,
+			GLASS,
+			FIRE,
+			ICE,
+			POISON,
+			HOLY_PANEL,
+			PIT
 		}
 
-		Type type;
-		int recoverTime;
-		bool enemySide;
+		public enum Attribute {
+			IMMORTAL,
+			BREAKABLE,
+			RECOVERABLE
+		}
 
-		public Panel(Type type, bool enemySide) {
+
+		readonly public Type type;
+		readonly public Attribute attr;
+		readonly public int recoverTime;
+		readonly public bool enemySide;
+
+		public Panel(Type type, Attribute attr, bool enemySide) {
 			this.type = type;
+			this.attr = attr;
 			this.enemySide = enemySide;
 		}
-	
+
+
 	}
 }
 

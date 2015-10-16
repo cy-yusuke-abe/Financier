@@ -1,14 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/src/models/character/Character.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/src/scenes/SceneController.cs">
     <Files>
-      <File FileName="Assets/src/scenes/SceneController.cs" Line="20" Column="18" />
-      <File FileName="Assets/src/models/field/Panel.cs" Line="29" Column="3" />
+      <File FileName="Assets/src/libs/billboard/LookForward.cs" Line="60" Column="44" />
+      <File FileName="Assets/src/libs/renderer/FieldRenderer.cs" Line="18" Column="1" />
+      <File FileName="Assets/src/scenes/SceneController.cs" Line="13" Column="16" />
+      <File FileName="Assets/src/models/field/Panel.cs" Line="1" Column="1" />
       <File FileName="Assets/src/models/field/Obstacle.cs" Line="1" Column="1" />
       <File FileName="Assets/src/models/Life.cs" Line="1" Column="1" />
-      <File FileName="Assets/src/libs/renderer/FieldRenderer.cs" Line="23" Column="4" />
-      <File FileName="Assets/src/models/field/Field.cs" Line="28" Column="10" />
-      <File FileName="Assets/src/models/character/Character.cs" Line="9" Column="20" />
+      <File FileName="Assets/src/models/field/Field.cs" Line="1" Column="1" />
+      <File FileName="Assets/src/models/character/Character.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

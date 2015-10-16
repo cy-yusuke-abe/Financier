@@ -12,7 +12,7 @@ namespace Libs.Renderer {
 
 
 		public FieldRenderer(Models.Field.Field field) {
-		
+ /*
 			prefabs = new GameObject[2];
 			prefabs[0] = (GameObject)Resources.Load("models/field/FieldGrabel");
 			prefabs[1] = (GameObject)Resources.Load("models/field/FieldGlass");
@@ -32,6 +32,7 @@ namespace Libs.Renderer {
 					fieldObjects[y, x] = (GameObject)Object.Instantiate(prefabs[(int)panel.type], pos, Quaternion.identity);
 				}
 			}
+			*/
 		}
 
 	}

@@ -5,8 +5,11 @@ namespace Models {
 
 		readonly public string name;
 
-		public Tribe(UInt32 id, string name) : base(id) {
+		readonly public Parameter parameter;
+
+		public Tribe(UInt32 id, string name, Parameter parameter) : base(id) {
 			this.name = name;
+			this.parameter = parameter;
 		}
 	}
 }

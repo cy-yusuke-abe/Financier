@@ -45,17 +45,23 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\src\libs\Option.cs" />
      <Compile Include="Assets\src\libs\billboard\LookForward.cs" />
      <Compile Include="Assets\src\libs\renderer\FieldRenderer.cs" />
      <Compile Include="Assets\src\models\Entity.cs" />
+     <Compile Include="Assets\src\models\Experience.cs" />
+     <Compile Include="Assets\src\models\Level.cs" />
      <Compile Include="Assets\src\models\Life.cs" />
      <Compile Include="Assets\src\models\Parameter.cs" />
      <Compile Include="Assets\src\models\Point2D.cs" />
+     <Compile Include="Assets\src\models\ValueObject.cs" />
      <Compile Include="Assets\src\models\character\Character.cs" />
      <Compile Include="Assets\src\models\character\Tribe.cs" />
+     <Compile Include="Assets\src\models\character\UserCharacter.cs" />
      <Compile Include="Assets\src\models\field\Field.cs" />
      <Compile Include="Assets\src\models\field\Obstacle.cs" />
      <Compile Include="Assets\src\models\field\Panel.cs" />
+     <Compile Include="Assets\src\models\profession\Profession.cs" />
      <Compile Include="Assets\src\scenes\SceneController.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />

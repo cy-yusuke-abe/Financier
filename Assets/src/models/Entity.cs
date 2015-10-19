@@ -21,7 +21,7 @@ namespace Models {
 			return this.id == ((Entity)that).id;
 		}
 
-		public override int GetHashCode() {
+		override public int GetHashCode() {
 			return id.GetHashCode();
 		}
 	}
